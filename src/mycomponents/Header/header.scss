@@ -1,0 +1,56 @@
+.navbar{
+  position: sticky;
+  top: 0;
+    .container{
+        display: flex;
+        background: #fff;
+       .header{
+         .img{
+            width: 100px;
+            height: 70px;
+            top: 2px;
+        }
+    }   
+    .nav{
+        display: flex;
+        flex-direction: row;
+        // border: 2px solid black;
+        align-content: flex-start;
+        margin-right:10px;
+
+       .nav-link{
+        gap:0px;
+        margin-right: 25px;
+        font-size: 18px;
+        position: relative;
+         &:after{
+        bottom: -4px;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 0;
+        position: absolute;
+        background: #1C8765;
+        opacity: 0.6;
+        transition: width 0.3s ease 0s, opacity 0.3s ease 0s;
+        width: 0;
+       }
+      &:hover:after{
+        width: 100%;
+        opacity: 0.9;
+        
+      }
+      .buttton{
+        background: #F74949;
+        color: #fff;
+        // height: 35px;
+
+        
+      }
+        
+        // position: relative;
+        // left:35px;
+       } 
+    }
+}
+}

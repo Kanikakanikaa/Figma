@@ -1,0 +1,33 @@
+.layout5{
+    width: 100%;
+    // border: 1px solid black;
+    margin-top: 50px;
+    background-color:#F3F3F3 ;
+    
+    h2{
+        padding-top: 80px;
+text-align: center;
+}
+.outer{
+    height:200px; 
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    // border: 1px solid black;
+    width: 100%;
+    
+
+img{
+    // display: inline-block;
+    // border: 1px solid grey;
+    // width: 150px;
+    border: 1px solid  rgba(176, 179, 179, 0.555);
+    border-radius: 12px;
+    height: 100px;
+    padding: 20px;
+   
+
+}
+}
+}
