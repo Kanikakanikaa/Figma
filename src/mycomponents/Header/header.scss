@@ -1,9 +1,12 @@
 .navbar{
   position: sticky;
-  top: 0;
+  height: 104px;
+  
+  top: 0px;
     .container{
         display: flex;
         background: #fff;
+        width: 1600px;
        .header{
          .img{
             width: 100px;

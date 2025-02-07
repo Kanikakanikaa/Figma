@@ -39,6 +39,7 @@ export default function Layout2() {
   return (
     <div className="container2">
       <h2 className="heading">Programs that Enrich Ambitions</h2>
+      <div className="table">
       {array.map((item, index) => {
           return (
             <Row className="outer underline-row">
@@ -56,6 +57,7 @@ export default function Layout2() {
                 </Row>
           );
         })}
+        </div>
             {/* <Row className='table'>
                 <Col colspan={3} className='image'>
                 <img src={image1} alt=""/>
